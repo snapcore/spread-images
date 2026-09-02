@@ -51,8 +51,8 @@ backends:
                 image: snapd-spread/ubuntu-20.04-64
             - ubuntu-20.04-64-hwe:
                 image: snapd-spread/ubuntu-20.04-64-hwe
-            - ubuntu-20.04-64-pro-fips-enabled:
-                image: snapd-spread/ubuntu-20.04-64-pro-fips-enabled
+            - ubuntu-20.04-64-pro-fips:
+                image: snapd-spread/ubuntu-20.04-64-pro-fips
             - ubuntu-20.04-64-nested:
                 image: snapd-spread/ubuntu-20.04-64-nested
             - ubuntu-22.04-64-base:
@@ -61,7 +61,7 @@ backends:
                 image: snapd-spread/ubuntu-22.04-64
             - ubuntu-22.04-64-secboot:
                 image: snapd-spread/ubuntu-22.04-64-secboot
-            - ubuntu-22.04-64-pro-fips-enabled:
+            - ubuntu-22.04-64-pro-fips:
                 image: snapd-spread/ubuntu-22.04-64-pro-fips
             - ubuntu-22.04-64-nested:
                 image: snapd-spread/ubuntu-22.04-64-nested
@@ -71,7 +71,7 @@ backends:
                 image: snapd-spread/ubuntu-24.04-64
             - ubuntu-24.04-64-secboot:
                 image: snapd-spread/ubuntu-24.04-64-secboot
-            - ubuntu-24.04-64-pro-fips-enabled:
+            - ubuntu-24.04-64-pro-fips:
                 image: snapd-spread/ubuntu-24.04-64-pro-fips
             - ubuntu-24.04-64-nested:
                 image: snapd-spread/ubuntu-24.04-64-nested
@@ -87,7 +87,7 @@ backends:
                 image: auto-sync/ubuntu-resolute-daily-amd64-server
             - ubuntu-26.04-64:
                 image: snapd-spread/ubuntu-26.04-64
-            - ubuntu-26.04-64-pro-fips-enabled:
+            - ubuntu-26.04-64-pro-fips:
                 image: snapd-spread/ubuntu-26.04-64-pro-fips
             - ubuntu-26.04-64-nested:
                 image: snapd-spread/ubuntu-26.04-64-nested
